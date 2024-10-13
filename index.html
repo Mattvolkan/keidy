@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matius x Keidy</title>
+  <link rel="stylesheet" href="est.css".css>
+</head>
+<body>
+  <header>
+    <h1>Matius x Keidy</h1>
+  </header>
+
+  <div class="container">
+    <div class="column left">
+      <p>Keidy, eres el sol que ilumina mis días y la estrella que guía mis noches. Cada momento contigo es mágico y quiero que seamos para siempre.</p>
+      <button id="boton1" onclick="responder()">¿Quieres ser mi novia?</button>
+    </div>
+    <div class="column right">
+      <h2>Razones por las que te amo</h2>
+      <ul>
+        <li>Tu sonrisa</li>
+        <li>Tu corazón</li>
+        <li>...</li>
+      </ul>
+    </div>
+  </div>    
+  <script>
+    function responder() {
+      const nombreUsuario = "Keidy"; // Asumimos que el nombre es Keidy
+      const mensajes = [
+        `¡${nombreUsuario}, eres la persona más especial que conozco!`,
+        `Me enamoré de ti desde el primer momento.`,
+        // Agrega más mensajes aquí
+      ];
+      const mensajeAleatorio = mensajes[Math.floor(Math.random() * mensajes.length)];
+    
+      if (confirm(mensajeAleatorio)) {
+        window.location.href = "galeria.html"; // Cambia por la URL de tu galería de fotos
+      }
+    }
+        </script>
+</body>
+</html>

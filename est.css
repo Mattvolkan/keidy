@@ -3,7 +3,7 @@
       background-color: #fad7df;
       background-image: url('fondo_romantico.jpg  '); /* Reemplaza con tu imagen de fondo */
       background-size: cover;
-      display: flexbox;
+      display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;

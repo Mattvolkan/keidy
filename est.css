@@ -34,6 +34,10 @@
   #boton1 {
       background-color: #ff69b4; /* Rosa claro */
       color: white;
+      position: absolute;
+      width: 300px;
+      left: 350px;
+      right: 1000px;
       padding: 15px 32px;
       margin-top: 20px;
       text-align: center;

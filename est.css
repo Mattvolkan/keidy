@@ -58,8 +58,10 @@
     header {
       text-align: center;
       background-image: url('Heart_corazón.svg.png');
-      width: 210px;
-      background-size: 99%;
+      width: 200px;
+      height: 140px;
+      background-size: 100%;
+      position: relative;
       color: white;
       padding: 20px;
     }

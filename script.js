@@ -59,3 +59,7 @@ btnCloseElement.addEventListener('click', ()=> {
     heartElement.style.display = 'none'
   },500)
 })
+
+document.getElementById("btnVolver").addEventListener("click", function() {
+            window.history.back();
+        });
